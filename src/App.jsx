@@ -16,9 +16,9 @@ const TEMOIGNAGES = [
 ];
 
 const PLANS = [
-  { name: "Starter", price: 9, period: "mois", color: "#c0913a", features: ["Conseiller IA sur les viandes", "5 cuissons/mois", "Calculateur de fumée", "Support email"] },
-  { name: "Pitmaster Pro", price: 19, period: "mois", color: "#e05c2a", features: ["Tout le Starter", "Cuissons illimitées", "Coaching IA en temps réel", "Optimiseur smoke ring", "Support prioritaire"], popular: true },
-  { name: "Légende BBQ", price: 49, period: "mois", color: "#7b2f1a", features: ["Tout le Pro", "Mode compétition", "Générateur de rubs personnalisés", "Sessions expert 1-on-1", "Onboarding VIP"] },
+  { name: "Starter", price: 9, period: "mois", color: "#c0913a",priceId: "price_1TAwo6LFh2qM0A0n2LIN9hzO", features: ["Conseiller IA sur les viandes", "5 cuissons/mois", "Calculateur de fumée", "Support email"] },
+  { name: "Pitmaster Pro", price: 19, period: "mois", color: "#e05c2a",priceId: price_1TAwoYLFh2qM0A0nkU3YJVXI features: ["Tout le Starter", "Cuissons illimitées", "Coaching IA en temps réel", "Optimiseur smoke ring", "Support prioritaire"], popular: true },
+  { name: "Légende BBQ", price: 49, period: "mois", color: "#7b2f1a",priceId: price_1TAwoyLFh2qM0A0nVIL2XUWL features: ["Tout le Pro", "Mode compétition", "Générateur de rubs personnalisés", "Sessions expert 1-on-1", "Onboarding VIP"] },
 ];
 
 function FlameIcon() {
