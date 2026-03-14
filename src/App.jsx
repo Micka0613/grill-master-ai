@@ -36,6 +36,17 @@ function Etoiles({ n = 5 }) {
 }
 
 export default function App() {
+onst stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
+
+const handlePayment = async (priceId) => {
+  const stripe = await stripePromise;
+  await stripe.redirectToCheckout({
+    lineItems: [{ price: priceId, quantity: 1 }],
+    mode: 'subscription',
+    successUrl: window.location.origin + '/success',
+    cancelUrl: window.location.origin,
+  });
+};
   const [viande, setViande] = useState(null);
   const [aiLoading, setAiLoading] = useState(false);
   const [aiResult, setAiResult] = useState("");
