@@ -263,7 +263,7 @@ export default function App() {
           <FlameIcon />
           <span className="hero-title" style={{ fontSize: 18, color: "#c0913a" }}>GrillMaster AI</span>
         </div>
-        <p className="body-font" style={{ color: "#4a3020", fontSize: 12 }}>© 2025 GrillMaster AI · Confidentialité · CGU · Fait avec 🔥 en France</p>
+        <p className="body-font" style={{ color: "#4a3020", fontSize: 12 }}>© 2026 GrillMaster AI · Confidentialité · CGU · Fait avec 🔥 en France</p>
       </footer>
     </div>
   );
